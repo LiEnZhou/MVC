@@ -12,10 +12,9 @@ namespace homework0522.Models
         public int Id { get; set; }
         [Required]
         public string? Name { get; set; }
-        [Range(0, 100)]
+        [Range(0, 5000)]
         public int price { get; set; }
         [Required]
-        [Range(1, 100)]
         public string? color { get; set; }
     }
 }
